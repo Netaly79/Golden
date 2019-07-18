@@ -1,0 +1,40 @@
+.my-header{
+    background-image:url("../../images/Background\ Image@2X.png");
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.jumbotron{
+    background-color:rgba(0, 0,0, 0.5);  
+}
+.lead{
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 40px;
+    font-weight: 400;
+    letter-spacing: -1px;
+    text-align: center;
+}
+.display-4{
+    color: #ffffff;
+    font-family: "Arial MT";
+    font-size: 75px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: -1.88px;
+    text-align: center;
+}
+.btn-primary{
+    background-color: #fed136;
+    border-color: #fed136;
+    color: #ffffff;
+    font-family: "Arial - Bold MT";
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding: 25px;
+}
+.btn-primary:hover{
+    background-color: #c9a111;
+    border-color: #fed136;
+}

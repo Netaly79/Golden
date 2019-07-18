@@ -20,7 +20,18 @@
 @import url('components/icon-css/fontello.css');
 
 
-
+@font-face {
+font-family: 'Wisdom Script Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Wisdom Script Regular'), url('../font/Wisdom Script AJ.woff') format('woff');
+}
+@font-face {
+    font-family: 'Arial MT';
+    font-style: normal;
+    font-weight: normal;
+    src: local('ArialMT'), url('../font/ARIALMT.ttf') format('ttf');
+    }
   
     
 
