@@ -19,13 +19,14 @@
 @import url('components/icon-css/fontello-ie7.css');
 @import url('components/icon-css/fontello.css');
 
+/* @font-face {
+    font-family: 'Wisdom Script';
+    src: url('../font/Wisdom-Script.woff2') format('woff2'),
+        url('../font/Wisdom-Script.woff') format('woff');
+    font-weight: normal;
+    font-style:italic;
+} */
 
-@font-face {
-font-family: 'Wisdom Script Regular';
-font-style: normal;
-font-weight: normal;
-src: local('Wisdom Script Regular'), url('../font/Wisdom Script AJ.woff') format('woff');
-}
 @font-face {
     font-family: 'Arial MT';
     font-style: normal;
