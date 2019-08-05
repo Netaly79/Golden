@@ -1,5 +1,6 @@
 *, *::before, *::after {
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
 }
 html {
   font-family: "Segoe WP Light", 'Open Sans', sans-serif;
@@ -46,3 +47,4 @@ ol > li > ul,
 ol > li > ol {
   margin: 0;
 }
+

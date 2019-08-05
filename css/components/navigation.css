@@ -1,6 +1,8 @@
 .navbar{
-    justify-content: space-between;
-    background-color:rgba(0, 0,0, 0.5);
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background-color:transparent;
 }
 .navbar-light .navbar-brand{
     font-family: "Wisdom Script";
@@ -39,7 +41,11 @@
 @media (min-width: 768px) { 
     .navbar-expand-lg .navbar-nav {
         -ms-flex-direction: row;
-        flex-direction: row;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+                flex-direction: row;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
     }
   .dropdown{

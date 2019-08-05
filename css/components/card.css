@@ -7,9 +7,15 @@
     border-radius: 50%;
     width: 70px;
     height: 69px;
+    display:-webkit-box;
+    display:-ms-flexbox;
     display:flex;
-    justify-content: center;
-    align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
 }
 .icon-card{
     color:#fed136;
@@ -25,4 +31,40 @@
 .icon-locked{
     width: 31px;
     height: 40px; 
+}
+.card-body{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.card-title{
+    font-size: 18pt;
+    color: rgba(51, 51, 51, 255);
+    margin-bottom: 0;
+    text-align: center;
+}
+.card-text{
+    text-align: center;
+    font-size: 14pt;
+    color: rgba(115, 115, 115, 255);
+    margin-top: 5px;
+}
+.card-link:hover{
+    color:#fed136;
+}
+.person-card img{
+    border-radius: 50%;
+    border: 20px solid white; 
+    -o-object-fit: cover; 
+       object-fit: cover;
 }
