@@ -4,6 +4,7 @@
 }
 .form-control::placeholder{
     text-transform: uppercase;
+    margin-bottom: 0;
 }
 .col-sm{
     display: flex;
